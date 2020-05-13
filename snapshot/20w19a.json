@@ -1,5 +1,5 @@
 {
-   "__url" : "https://launchermeta.mojang.com/v1/packages/f1fc81d9edc7ba9a1f3cbe55bf438bdeaf34baac/20w10a.json",
+   "__url" : "https://launchermeta.mojang.com/v1/packages/e14d3652b363bf64b6b2cc7a2aee6cc0504fa4ba/20w19a.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -116,27 +116,27 @@
    "assets" : "1.16",
    "downloads" : {
       "client" : {
-         "sha1" : "5476bd5eda4f2fec842225b4e60dc270aa9c18c9",
-         "size" : 15965709,
-         "url" : "https://launcher.mojang.com/v1/objects/5476bd5eda4f2fec842225b4e60dc270aa9c18c9/client.jar"
+         "sha1" : "10788e762e437780f17b16832b59647548b34ac1",
+         "size" : 16970156,
+         "url" : "https://launcher.mojang.com/v1/objects/10788e762e437780f17b16832b59647548b34ac1/client.jar"
       },
       "client_mappings" : {
-         "sha1" : "beffe14336310bd455b0a88a03b204496df13c3c",
-         "size" : 5135790,
-         "url" : "https://launcher.mojang.com/v1/objects/beffe14336310bd455b0a88a03b204496df13c3c/client.txt"
+         "sha1" : "2fe5956ac11142d1ec3551e4bad01b69cb74f52f",
+         "size" : 5416311,
+         "url" : "https://launcher.mojang.com/v1/objects/2fe5956ac11142d1ec3551e4bad01b69cb74f52f/client.txt"
       },
       "server" : {
-         "sha1" : "b9310c21839112d6758b0b245998f57a2b9a0500",
-         "size" : 36490686,
-         "url" : "https://launcher.mojang.com/v1/objects/b9310c21839112d6758b0b245998f57a2b9a0500/server.jar"
+         "sha1" : "fbb3ad3e7b25e78723434434077995855141ff07",
+         "size" : 37308979,
+         "url" : "https://launcher.mojang.com/v1/objects/fbb3ad3e7b25e78723434434077995855141ff07/server.jar"
       },
       "server_mappings" : {
-         "sha1" : "dcf7b65a7bf1f29c1480bb03085b1d4cace64c18",
-         "size" : 3952927,
-         "url" : "https://launcher.mojang.com/v1/objects/dcf7b65a7bf1f29c1480bb03085b1d4cace64c18/server.txt"
+         "sha1" : "0fe3dacac40270c705676901f8884bd30230a7e4",
+         "size" : 4163920,
+         "url" : "https://launcher.mojang.com/v1/objects/0fe3dacac40270c705676901f8884bd30230a7e4/server.txt"
       }
    },
-   "id" : "20w10a",
+   "id" : "20w19a",
    "libraries" : [
       {
          "downloads" : {
@@ -185,13 +185,13 @@
       {
          "downloads" : {
             "artifact" : {
-               "path" : "com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar",
-               "sha1" : "63d216a9311cca6be337c1e458e587f99d382b84",
-               "size" : 1634692,
-               "url" : "https://libraries.minecraft.net/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar"
+               "path" : "com/ibm/icu/icu4j/66.1/icu4j-66.1.jar",
+               "sha1" : "72c7519b6d91f7a1f993bd44a99fe95d67211b27",
+               "size" : 12935630,
+               "url" : "https://libraries.minecraft.net/com/ibm/icu/icu4j/66.1/icu4j-66.1.jar"
             }
          },
-         "name" : "com.ibm.icu:icu4j-core-mojang:51.2"
+         "name" : "com.ibm.icu:icu4j:66.1"
       },
       {
          "downloads" : {
@@ -328,13 +328,13 @@
       {
          "downloads" : {
             "artifact" : {
-               "path" : "com/mojang/authlib/1.5.25/authlib-1.5.25.jar",
-               "sha1" : "9834cdf236c22e84b946bba989e2f94ef5897c3c",
-               "size" : 65621,
-               "url" : "https://libraries.minecraft.net/com/mojang/authlib/1.5.25/authlib-1.5.25.jar"
+               "path" : "com/mojang/authlib/1.6.25/authlib-1.6.25.jar",
+               "sha1" : "5bd0ce00c1e1f483641f85bccb02d1956dd77ec0",
+               "size" : 70197,
+               "url" : "https://libraries.minecraft.net/com/mojang/authlib/1.6.25/authlib-1.6.25.jar"
             }
          },
-         "name" : "com.mojang:authlib:1.5.25"
+         "name" : "com.mojang:authlib:1.6.25"
       },
       {
          "downloads" : {
@@ -1544,7 +1544,7 @@
    },
    "mainClass" : "net.minecraft.client.main.Main",
    "minimumLauncherVersion" : 21,
-   "releaseTime" : "2020-03-04T16:21:41+00:00",
-   "time" : "2020-03-04T16:21:41+00:00",
+   "releaseTime" : "2020-05-06T16:23:24+00:00",
+   "time" : "2020-05-06T16:23:24+00:00",
    "type" : "snapshot"
 }
