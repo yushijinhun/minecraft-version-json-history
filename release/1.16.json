@@ -1,5 +1,5 @@
 {
-   "__url" : "https://launchermeta.mojang.com/v1/packages/89677d953a89025e68d82dd46514aef3055f1311/1.16-pre2.json",
+   "__url" : "https://launchermeta.mojang.com/v1/packages/8028ab5cb5ceebf41876e64af991539943f40e7f/1.16.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -116,27 +116,27 @@
    "assets" : "1.16",
    "downloads" : {
       "client" : {
-         "sha1" : "a1382f4cf8815e3085efb1782cf32ed5cb621b86",
-         "size" : 17453460,
-         "url" : "https://launcher.mojang.com/v1/objects/a1382f4cf8815e3085efb1782cf32ed5cb621b86/client.jar"
+         "sha1" : "228fdf45541c4c2fe8aec4f20e880cb8fcd46621",
+         "size" : 17492200,
+         "url" : "https://launcher.mojang.com/v1/objects/228fdf45541c4c2fe8aec4f20e880cb8fcd46621/client.jar"
       },
       "client_mappings" : {
-         "sha1" : "b7b693fc488eb874f3597648b6fe02182d56f467",
-         "size" : 5603880,
-         "url" : "https://launcher.mojang.com/v1/objects/b7b693fc488eb874f3597648b6fe02182d56f467/client.txt"
+         "sha1" : "800eb4264594307d026ff911eabd1ee6fc9265f8",
+         "size" : 5632324,
+         "url" : "https://launcher.mojang.com/v1/objects/800eb4264594307d026ff911eabd1ee6fc9265f8/client.txt"
       },
       "server" : {
-         "sha1" : "8daeb71269eb164097d7d7ab1fa93fc93ab125c3",
-         "size" : 37951206,
-         "url" : "https://launcher.mojang.com/v1/objects/8daeb71269eb164097d7d7ab1fa93fc93ab125c3/server.jar"
+         "sha1" : "a0d03225615ba897619220e256a266cb33a44b6b",
+         "size" : 37968865,
+         "url" : "https://launcher.mojang.com/v1/objects/a0d03225615ba897619220e256a266cb33a44b6b/server.jar"
       },
       "server_mappings" : {
-         "sha1" : "c7b54e3ab9d29d13b4efc1ff43aa70325536c384",
-         "size" : 4310593,
-         "url" : "https://launcher.mojang.com/v1/objects/c7b54e3ab9d29d13b4efc1ff43aa70325536c384/server.txt"
+         "sha1" : "618315f1fc2f56fe003612bb1fee1ad4060768a0",
+         "size" : 4329484,
+         "url" : "https://launcher.mojang.com/v1/objects/618315f1fc2f56fe003612bb1fee1ad4060768a0/server.txt"
       }
    },
-   "id" : "1.16-pre2",
+   "id" : "1.16",
    "libraries" : [
       {
          "downloads" : {
@@ -1544,7 +1544,7 @@
    },
    "mainClass" : "net.minecraft.client.main.Main",
    "minimumLauncherVersion" : 21,
-   "releaseTime" : "2020-06-05T10:47:59+00:00",
-   "time" : "2020-06-05T10:47:59+00:00",
-   "type" : "snapshot"
+   "releaseTime" : "2020-06-23T16:20:52+00:00",
+   "time" : "2020-06-23T16:20:52+00:00",
+   "type" : "release"
 }
