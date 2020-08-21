@@ -1,5 +1,5 @@
 {
-   "__url" : "https://launchermeta.mojang.com/v1/packages/0f420f459347e2c43e6565186e5d063b3feed380/1.16-pre3.json",
+   "__url" : "https://launchermeta.mojang.com/v1/packages/dbf25e875316d0dcbab375f69796beedb94284a1/1.16-pre3.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -108,10 +108,10 @@
    },
    "assetIndex" : {
       "id" : "1.16",
-      "sha1" : "98a8f280d9f3b26f24a612ad2905fb614a366720",
+      "sha1" : "bdb68de96a44ec1e9ed6d9cfcd2ee973be618c3a",
       "size" : 295417,
-      "totalSize" : 329181216,
-      "url" : "https://launchermeta.mojang.com/v1/packages/98a8f280d9f3b26f24a612ad2905fb614a366720/1.16.json"
+      "totalSize" : 329202599,
+      "url" : "https://launchermeta.mojang.com/v1/packages/bdb68de96a44ec1e9ed6d9cfcd2ee973be618c3a/1.16.json"
    },
    "assets" : "1.16",
    "downloads" : {
@@ -121,9 +121,9 @@
          "url" : "https://launcher.mojang.com/v1/objects/0d7c195c685f8a6172696c9a7f8f4e5d76185528/client.jar"
       },
       "client_mappings" : {
-         "sha1" : "5be40d7307349ae9d8a7cb3066d0bb5b4817226d",
-         "size" : 5617308,
-         "url" : "https://launcher.mojang.com/v1/objects/5be40d7307349ae9d8a7cb3066d0bb5b4817226d/client.txt"
+         "sha1" : "4a012680147a891696f22fd031148c5e1564f760",
+         "size" : 5617426,
+         "url" : "https://launcher.mojang.com/v1/objects/4a012680147a891696f22fd031148c5e1564f760/client.txt"
       },
       "server" : {
          "sha1" : "0b5653b65bc494fa55349682cebf50abf0d72ad9",
@@ -131,9 +131,9 @@
          "url" : "https://launcher.mojang.com/v1/objects/0b5653b65bc494fa55349682cebf50abf0d72ad9/server.jar"
       },
       "server_mappings" : {
-         "sha1" : "c1323c8127c52e228918e82fd4b74d40fb2897a2",
-         "size" : 4322553,
-         "url" : "https://launcher.mojang.com/v1/objects/c1323c8127c52e228918e82fd4b74d40fb2897a2/server.txt"
+         "sha1" : "a3ce901f9c3684ebd010292b6242de60d5ecf273",
+         "size" : 4322671,
+         "url" : "https://launcher.mojang.com/v1/objects/a3ce901f9c3684ebd010292b6242de60d5ecf273/server.txt"
       }
    },
    "id" : "1.16-pre3",

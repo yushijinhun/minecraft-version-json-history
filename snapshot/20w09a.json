@@ -1,5 +1,5 @@
 {
-   "__url" : "https://launchermeta.mojang.com/v1/packages/77562b3ef1eeda96e44d891b8d60259bb3e8a531/20w09a.json",
+   "__url" : "https://launchermeta.mojang.com/v1/packages/3a4db6e1f458e7b0195c6a34bc79ba09085b0501/20w09a.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -108,10 +108,10 @@
    },
    "assetIndex" : {
       "id" : "1.16",
-      "sha1" : "98a8f280d9f3b26f24a612ad2905fb614a366720",
+      "sha1" : "bdb68de96a44ec1e9ed6d9cfcd2ee973be618c3a",
       "size" : 295417,
-      "totalSize" : 329181216,
-      "url" : "https://launchermeta.mojang.com/v1/packages/98a8f280d9f3b26f24a612ad2905fb614a366720/1.16.json"
+      "totalSize" : 329202599,
+      "url" : "https://launchermeta.mojang.com/v1/packages/bdb68de96a44ec1e9ed6d9cfcd2ee973be618c3a/1.16.json"
    },
    "assets" : "1.16",
    "downloads" : {
@@ -121,9 +121,9 @@
          "url" : "https://launcher.mojang.com/v1/objects/d62a517011a3ec66b053a8eae703779555227204/client.jar"
       },
       "client_mappings" : {
-         "sha1" : "03fa0512cb7ae24ee25ea4917ddf0ab1a3cc04dc",
-         "size" : 5109728,
-         "url" : "https://launcher.mojang.com/v1/objects/03fa0512cb7ae24ee25ea4917ddf0ab1a3cc04dc/client.txt"
+         "sha1" : "fcd95574c2585030aaffc52eae4db7660d1c797b",
+         "size" : 5109846,
+         "url" : "https://launcher.mojang.com/v1/objects/fcd95574c2585030aaffc52eae4db7660d1c797b/client.txt"
       },
       "server" : {
          "sha1" : "6f1e5ae00b938bbe15560b7174be7a3b4c78c450",
@@ -131,9 +131,9 @@
          "url" : "https://launcher.mojang.com/v1/objects/6f1e5ae00b938bbe15560b7174be7a3b4c78c450/server.jar"
       },
       "server_mappings" : {
-         "sha1" : "d3c52df20e9afb85f5e471ecb5b87aa98acf409a",
-         "size" : 3864391,
-         "url" : "https://launcher.mojang.com/v1/objects/d3c52df20e9afb85f5e471ecb5b87aa98acf409a/server.txt"
+         "sha1" : "8049ccc2b87068b80f5848c09e3879c9baf145af",
+         "size" : 3864509,
+         "url" : "https://launcher.mojang.com/v1/objects/8049ccc2b87068b80f5848c09e3879c9baf145af/server.txt"
       }
    },
    "id" : "20w09a",

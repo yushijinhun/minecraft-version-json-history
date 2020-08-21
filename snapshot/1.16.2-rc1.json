@@ -1,5 +1,5 @@
 {
-   "__url" : "https://launchermeta.mojang.com/v1/packages/b24f0066bdcadf5ef5f49386a56d628af3c31046/1.16.2-rc1.json",
+   "__url" : "https://launchermeta.mojang.com/v1/packages/ba82e3fa0db77b36fb53ae4d8e698dd81a69ae6f/1.16.2-rc1.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -108,10 +108,10 @@
    },
    "assetIndex" : {
       "id" : "1.16",
-      "sha1" : "98a8f280d9f3b26f24a612ad2905fb614a366720",
+      "sha1" : "bdb68de96a44ec1e9ed6d9cfcd2ee973be618c3a",
       "size" : 295417,
-      "totalSize" : 329181216,
-      "url" : "https://launchermeta.mojang.com/v1/packages/98a8f280d9f3b26f24a612ad2905fb614a366720/1.16.json"
+      "totalSize" : 329202599,
+      "url" : "https://launchermeta.mojang.com/v1/packages/bdb68de96a44ec1e9ed6d9cfcd2ee973be618c3a/1.16.json"
    },
    "assets" : "1.16",
    "downloads" : {
@@ -121,9 +121,9 @@
          "url" : "https://launcher.mojang.com/v1/objects/dd4982bb447c1d2c7c03419b90dbe8f017c47311/client.jar"
       },
       "client_mappings" : {
-         "sha1" : "0eb95ed9d2231b960cce3369aa562cf42e4722fc",
-         "size" : 5721758,
-         "url" : "https://launcher.mojang.com/v1/objects/0eb95ed9d2231b960cce3369aa562cf42e4722fc/client.txt"
+         "sha1" : "aadf5f67d80de8dd7d4643ce880ae8ab96552e22",
+         "size" : 5721876,
+         "url" : "https://launcher.mojang.com/v1/objects/aadf5f67d80de8dd7d4643ce880ae8ab96552e22/client.txt"
       },
       "server" : {
          "sha1" : "203e18d79201b5e8c46019074b07e1c3b4c75f57",
@@ -131,9 +131,9 @@
          "url" : "https://launcher.mojang.com/v1/objects/203e18d79201b5e8c46019074b07e1c3b4c75f57/server.jar"
       },
       "server_mappings" : {
-         "sha1" : "3405a0f2c0ccacd36a8158ae29b16eaa915b5d28",
-         "size" : 4392509,
-         "url" : "https://launcher.mojang.com/v1/objects/3405a0f2c0ccacd36a8158ae29b16eaa915b5d28/server.txt"
+         "sha1" : "0dbbb5aae568c2d9aa34e3be11e7b525054265d9",
+         "size" : 4392627,
+         "url" : "https://launcher.mojang.com/v1/objects/0dbbb5aae568c2d9aa34e3be11e7b525054265d9/server.txt"
       }
    },
    "id" : "1.16.2-rc1",
