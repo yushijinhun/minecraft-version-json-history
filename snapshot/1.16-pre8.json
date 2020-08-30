@@ -1,5 +1,5 @@
 {
-   "__url" : "https://launchermeta.mojang.com/v1/packages/b7fb24f6d0491e6ac5f07eee08518a5cffe07345/1.16-pre8.json",
+   "__url" : "https://launchermeta.mojang.com/v1/packages/90c0b682635c90c3cd2d7e158ad3a0da9c7e9245/1.16-pre8.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -121,9 +121,9 @@
          "url" : "https://launcher.mojang.com/v1/objects/23b14c93185398af577353c47af04248991b72b4/client.jar"
       },
       "client_mappings" : {
-         "sha1" : "cc731ea8613341fe463db28e5d093a244cbb2b4f",
-         "size" : 5632094,
-         "url" : "https://launcher.mojang.com/v1/objects/cc731ea8613341fe463db28e5d093a244cbb2b4f/client.txt"
+         "sha1" : "8058a7ffc007638adc30b116ce94773530eb300d",
+         "size" : 5632107,
+         "url" : "https://launcher.mojang.com/v1/objects/8058a7ffc007638adc30b116ce94773530eb300d/client.txt"
       },
       "server" : {
          "sha1" : "d6a747371b200216653be9b4140cd2862eddbb0e",
@@ -131,9 +131,9 @@
          "url" : "https://launcher.mojang.com/v1/objects/d6a747371b200216653be9b4140cd2862eddbb0e/server.jar"
       },
       "server_mappings" : {
-         "sha1" : "e12f3803214e464595e100530a23c56ad8b3c851",
-         "size" : 4329467,
-         "url" : "https://launcher.mojang.com/v1/objects/e12f3803214e464595e100530a23c56ad8b3c851/server.txt"
+         "sha1" : "86b8182af15ff4be70b1cfdbd493f5723939f068",
+         "size" : 4329480,
+         "url" : "https://launcher.mojang.com/v1/objects/86b8182af15ff4be70b1cfdbd493f5723939f068/server.txt"
       }
    },
    "id" : "1.16-pre8",
