@@ -1,5 +1,5 @@
 {
-   "__url" : "https://launchermeta.mojang.com/v1/packages/5ec6a159b034070a286f46a014d6d0ba3fa995a7/20w48a.json",
+   "__url" : "https://launchermeta.mojang.com/v1/packages/9d03c87e9f7ac639a0722e3ecb7c031eb0a2bbf8/20w48a.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -108,10 +108,10 @@
    },
    "assetIndex" : {
       "id" : "1.17",
-      "sha1" : "ecd216d8188230180af4163ee4f4901e28acee29",
-      "size" : 319072,
-      "totalSize" : 337149961,
-      "url" : "https://launchermeta.mojang.com/v1/packages/ecd216d8188230180af4163ee4f4901e28acee29/1.17.json"
+      "sha1" : "e022240e3d70866f41dd88a3b342cf842a7b31bd",
+      "size" : 321680,
+      "totalSize" : 337819420,
+      "url" : "https://launchermeta.mojang.com/v1/packages/e022240e3d70866f41dd88a3b342cf842a7b31bd/1.17.json"
    },
    "assets" : "1.17",
    "complianceLevel" : 1,
@@ -329,13 +329,13 @@
       {
          "downloads" : {
             "artifact" : {
-               "path" : "com/mojang/authlib/2.0.27/authlib-2.0.27.jar",
-               "sha1" : "cc36c2be8b0de3e200efbb23f0eb2d28055cd98f",
-               "size" : 76014,
-               "url" : "https://libraries.minecraft.net/com/mojang/authlib/2.0.27/authlib-2.0.27.jar"
+               "path" : "com/mojang/authlib/2.1.28/authlib-2.1.28.jar",
+               "sha1" : "ad54da276bf59983d02d5ed16fc14541354c71fd",
+               "size" : 76328,
+               "url" : "https://libraries.minecraft.net/com/mojang/authlib/2.1.28/authlib-2.1.28.jar"
             }
          },
-         "name" : "com.mojang:authlib:2.0.27"
+         "name" : "com.mojang:authlib:2.1.28"
       },
       {
          "downloads" : {
