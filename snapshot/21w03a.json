@@ -1,5 +1,5 @@
 {
-   "__url" : "https://launchermeta.mojang.com/v1/packages/9891e95d0280bec3ee0ba531850e05c9e0b927bb/21w03a.json",
+   "__url" : "https://launchermeta.mojang.com/v1/packages/b3284f4b30d20d4d81e1f1f12e7ffa50556e5d9a/21w03a.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -108,10 +108,10 @@
    },
    "assetIndex" : {
       "id" : "1.17",
-      "sha1" : "ff71ef080ad9ef91f661a9f5ba9ece6b8a6ea719",
-      "size" : 334132,
-      "totalSize" : 340991127,
-      "url" : "https://launchermeta.mojang.com/v1/packages/ff71ef080ad9ef91f661a9f5ba9ece6b8a6ea719/1.17.json"
+      "sha1" : "15809afbdc4489abd52a3d6c3fda0124f8f3404b",
+      "size" : 346007,
+      "totalSize" : 345285192,
+      "url" : "https://launchermeta.mojang.com/v1/packages/15809afbdc4489abd52a3d6c3fda0124f8f3404b/1.17.json"
    },
    "assets" : "1.17",
    "complianceLevel" : 1,
@@ -138,6 +138,10 @@
       }
    },
    "id" : "21w03a",
+   "javaVersion" : {
+      "component" : "jre-legacy",
+      "majorVersion" : 8
+   },
    "libraries" : [
       {
          "downloads" : {

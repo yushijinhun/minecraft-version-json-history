@@ -1,5 +1,5 @@
 {
-   "__url" : "https://launchermeta.mojang.com/v1/packages/b42462c21284920420f0a2a31d82942982f0d5a0/20w48a.json",
+   "__url" : "https://launchermeta.mojang.com/v1/packages/4ba9992d24ba0ffa5a40f120c324d39e0ff8bc37/21w08b.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -117,27 +117,27 @@
    "complianceLevel" : 1,
    "downloads" : {
       "client" : {
-         "sha1" : "a894354496a03e4bce6fe6c03a68313f4660e482",
-         "size" : 18126535,
-         "url" : "https://launcher.mojang.com/v1/objects/a894354496a03e4bce6fe6c03a68313f4660e482/client.jar"
+         "sha1" : "c8ae0a1a8b18841e009b8dcdf21ec014f5787410",
+         "size" : 18631048,
+         "url" : "https://launcher.mojang.com/v1/objects/c8ae0a1a8b18841e009b8dcdf21ec014f5787410/client.jar"
       },
       "client_mappings" : {
-         "sha1" : "55550d2717feb75a77920e211655a649708b859d",
-         "size" : 6003858,
-         "url" : "https://launcher.mojang.com/v1/objects/55550d2717feb75a77920e211655a649708b859d/client.txt"
+         "sha1" : "3cade11677a20fbd46c83edc8d90f7df465b3ff5",
+         "size" : 6221814,
+         "url" : "https://launcher.mojang.com/v1/objects/3cade11677a20fbd46c83edc8d90f7df465b3ff5/client.txt"
       },
       "server" : {
-         "sha1" : "a14d24f89d5a4ec7521b91909caf4fee89c997f4",
-         "size" : 38242211,
-         "url" : "https://launcher.mojang.com/v1/objects/a14d24f89d5a4ec7521b91909caf4fee89c997f4/server.jar"
+         "sha1" : "801d5e25869bab291077c773913cc2b490427314",
+         "size" : 38574374,
+         "url" : "https://launcher.mojang.com/v1/objects/801d5e25869bab291077c773913cc2b490427314/server.jar"
       },
       "server_mappings" : {
-         "sha1" : "a54f1c40e3b9a63a7a23fc268df7e79c2cb7e6cb",
-         "size" : 4594652,
-         "url" : "https://launcher.mojang.com/v1/objects/a54f1c40e3b9a63a7a23fc268df7e79c2cb7e6cb/server.txt"
+         "sha1" : "03f0068276fbd063b7cbf63747d432880cd08396",
+         "size" : 4782724,
+         "url" : "https://launcher.mojang.com/v1/objects/03f0068276fbd063b7cbf63747d432880cd08396/server.txt"
       }
    },
-   "id" : "20w48a",
+   "id" : "21w08b",
    "javaVersion" : {
       "component" : "jre-legacy",
       "majorVersion" : 8
@@ -1549,7 +1549,7 @@
    },
    "mainClass" : "net.minecraft.client.main.Main",
    "minimumLauncherVersion" : 21,
-   "releaseTime" : "2020-11-25T15:42:24+00:00",
-   "time" : "2020-11-25T15:42:24+00:00",
+   "releaseTime" : "2021-02-25T11:46:34+00:00",
+   "time" : "2021-02-25T11:46:34+00:00",
    "type" : "snapshot"
 }

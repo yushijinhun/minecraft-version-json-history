@@ -1,5 +1,5 @@
 {
-   "__url" : "https://launchermeta.mojang.com/v1/packages/b42462c21284920420f0a2a31d82942982f0d5a0/20w48a.json",
+   "__url" : "https://launchermeta.mojang.com/v1/packages/0883286188ce8a2ed9c03adf2300fc56b5959b2a/21w20a.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -117,42 +117,53 @@
    "complianceLevel" : 1,
    "downloads" : {
       "client" : {
-         "sha1" : "a894354496a03e4bce6fe6c03a68313f4660e482",
-         "size" : 18126535,
-         "url" : "https://launcher.mojang.com/v1/objects/a894354496a03e4bce6fe6c03a68313f4660e482/client.jar"
+         "sha1" : "f756009979e33058d57695a3599b4a2544d856ca",
+         "size" : 19377956,
+         "url" : "https://launcher.mojang.com/v1/objects/f756009979e33058d57695a3599b4a2544d856ca/client.jar"
       },
       "client_mappings" : {
-         "sha1" : "55550d2717feb75a77920e211655a649708b859d",
-         "size" : 6003858,
-         "url" : "https://launcher.mojang.com/v1/objects/55550d2717feb75a77920e211655a649708b859d/client.txt"
+         "sha1" : "e6bf5879f4ae3778540cf304483e035ef72416a3",
+         "size" : 6392437,
+         "url" : "https://launcher.mojang.com/v1/objects/e6bf5879f4ae3778540cf304483e035ef72416a3/client.txt"
       },
       "server" : {
-         "sha1" : "a14d24f89d5a4ec7521b91909caf4fee89c997f4",
-         "size" : 38242211,
-         "url" : "https://launcher.mojang.com/v1/objects/a14d24f89d5a4ec7521b91909caf4fee89c997f4/server.jar"
+         "sha1" : "054b2065dd63c3e4227879046beae7acaeb7e8d3",
+         "size" : 39193832,
+         "url" : "https://launcher.mojang.com/v1/objects/054b2065dd63c3e4227879046beae7acaeb7e8d3/server.jar"
       },
       "server_mappings" : {
-         "sha1" : "a54f1c40e3b9a63a7a23fc268df7e79c2cb7e6cb",
-         "size" : 4594652,
-         "url" : "https://launcher.mojang.com/v1/objects/a54f1c40e3b9a63a7a23fc268df7e79c2cb7e6cb/server.txt"
+         "sha1" : "8d6960e996a40b8350f5973d8a237469a9a6a7bc",
+         "size" : 4908433,
+         "url" : "https://launcher.mojang.com/v1/objects/8d6960e996a40b8350f5973d8a237469a9a6a7bc/server.txt"
       }
    },
-   "id" : "20w48a",
+   "id" : "21w20a",
    "javaVersion" : {
-      "component" : "jre-legacy",
-      "majorVersion" : 8
+      "component" : "java-runtime-alpha",
+      "majorVersion" : 16
    },
    "libraries" : [
       {
          "downloads" : {
             "artifact" : {
-               "path" : "com/mojang/patchy/1.1/patchy-1.1.jar",
-               "sha1" : "aef610b34a1be37fa851825f12372b78424d8903",
-               "size" : 15817,
-               "url" : "https://libraries.minecraft.net/com/mojang/patchy/1.1/patchy-1.1.jar"
+               "path" : "com/mojang/blocklist/1.0.5/blocklist-1.0.5.jar",
+               "sha1" : "9da540f21c9a8d5ed7c029e1f88d1a6dabb0d6ad",
+               "size" : 964,
+               "url" : "https://libraries.minecraft.net/com/mojang/blocklist/1.0.5/blocklist-1.0.5.jar"
             }
          },
-         "name" : "com.mojang:patchy:1.1"
+         "name" : "com.mojang:blocklist:1.0.5"
+      },
+      {
+         "downloads" : {
+            "artifact" : {
+               "path" : "com/mojang/patchy/2.0.5/patchy-2.0.5.jar",
+               "sha1" : "147f3989fa1db4412bf00167c5cd44d1ade2d9b9",
+               "size" : 10090,
+               "url" : "https://libraries.minecraft.net/com/mojang/patchy/2.0.5/patchy-2.0.5.jar"
+            }
+         },
+         "name" : "com.mojang:patchy:2.0.5"
       },
       {
          "downloads" : {
@@ -300,13 +311,13 @@
       {
          "downloads" : {
             "artifact" : {
-               "path" : "com/mojang/brigadier/1.0.17/brigadier-1.0.17.jar",
-               "sha1" : "c6b7dc51dd44379cc751b7504816006e9be4b1e6",
-               "size" : 77392,
-               "url" : "https://libraries.minecraft.net/com/mojang/brigadier/1.0.17/brigadier-1.0.17.jar"
+               "path" : "com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar",
+               "sha1" : "c1ef1234282716483c92183f49bef47b1a89bfa9",
+               "size" : 77116,
+               "url" : "https://libraries.minecraft.net/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar"
             }
          },
-         "name" : "com.mojang:brigadier:1.0.17"
+         "name" : "com.mojang:brigadier:1.0.18"
       },
       {
          "downloads" : {
@@ -333,13 +344,13 @@
       {
          "downloads" : {
             "artifact" : {
-               "path" : "com/mojang/authlib/2.1.28/authlib-2.1.28.jar",
-               "sha1" : "ad54da276bf59983d02d5ed16fc14541354c71fd",
-               "size" : 76328,
-               "url" : "https://libraries.minecraft.net/com/mojang/authlib/2.1.28/authlib-2.1.28.jar"
+               "path" : "com/mojang/authlib/2.1.29/authlib-2.1.29.jar",
+               "sha1" : "cf8922b78a78492729f8dcc8ba878c1e7547f15b",
+               "size" : 86202,
+               "url" : "https://libraries.minecraft.net/com/mojang/authlib/2.1.29/authlib-2.1.29.jar"
             }
          },
-         "name" : "com.mojang:authlib:2.1.28"
+         "name" : "com.mojang:authlib:2.1.29"
       },
       {
          "downloads" : {
@@ -1549,7 +1560,7 @@
    },
    "mainClass" : "net.minecraft.client.main.Main",
    "minimumLauncherVersion" : 21,
-   "releaseTime" : "2020-11-25T15:42:24+00:00",
-   "time" : "2020-11-25T15:42:24+00:00",
+   "releaseTime" : "2021-05-19T15:22:02+00:00",
+   "time" : "2021-05-19T15:22:02+00:00",
    "type" : "snapshot"
 }
