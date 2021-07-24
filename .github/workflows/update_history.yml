@@ -25,7 +25,7 @@ jobs:
             echo '::set-output name=changed::true'
             git commit -m "Update version.json history
 
-            GitHub Action: https://github.com/${{ github.repository }}/actions/runs/$GITHUB_RUN_ID
+          GitHub Action: https://github.com/${{ github.repository }}/actions/runs/$GITHUB_RUN_ID
             "
           fi
       - name: Push changes
