@@ -1,5 +1,5 @@
 {
-   "__url" : "https://launchermeta.mojang.com/v1/packages/44ef168e613e83a5f506db0e6a9d2bf83afb51b8/19w38b.json",
+   "__url" : "https://launchermeta.mojang.com/v1/packages/41c515ca21b6d4ff5c8adce117ca4188ff8d0e36/19w38b.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -108,12 +108,13 @@
    },
    "assetIndex" : {
       "id" : "1.15",
-      "sha1" : "bfdce6db2ba511d7dba9ef81910943d6c3d2608d",
-      "size" : 235094,
-      "totalSize" : 222915779,
-      "url" : "https://launchermeta.mojang.com/v1/packages/bfdce6db2ba511d7dba9ef81910943d6c3d2608d/1.15.json"
+      "sha1" : "3b41ad81220d2f21ff5b343629de725047dac13d",
+      "size" : 234333,
+      "totalSize" : 225464758,
+      "url" : "https://launchermeta.mojang.com/v1/packages/3b41ad81220d2f21ff5b343629de725047dac13d/1.15.json"
    },
    "assets" : "1.15",
+   "complianceLevel" : 0,
    "downloads" : {
       "client" : {
          "sha1" : "d51e6f344aa46b609e5877699af3c9f613d8ef7c",
@@ -137,17 +138,21 @@
       }
    },
    "id" : "19w38b",
+   "javaVersion" : {
+      "component" : "jre-legacy",
+      "majorVersion" : 8
+   },
    "libraries" : [
       {
          "downloads" : {
             "artifact" : {
-               "path" : "com/mojang/patchy/1.1/patchy-1.1.jar",
-               "sha1" : "aef610b34a1be37fa851825f12372b78424d8903",
-               "size" : 15817,
-               "url" : "https://libraries.minecraft.net/com/mojang/patchy/1.1/patchy-1.1.jar"
+               "path" : "com/mojang/patchy/1.2.3/patchy-1.2.3.jar",
+               "sha1" : "e3107ca512d704a434076a153a6e1149e3787275",
+               "size" : 22340,
+               "url" : "https://libraries.minecraft.net/com/mojang/patchy/1.2.3/patchy-1.2.3.jar"
             }
          },
-         "name" : "com.mojang:patchy:1.1"
+         "name" : "com.mojang:patchy:1.2.3"
       },
       {
          "downloads" : {

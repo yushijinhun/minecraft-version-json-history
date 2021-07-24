@@ -1,5 +1,5 @@
 {
-   "__url" : "https://launchermeta.mojang.com/v1/packages/f827544a1a417c4d9330c6c41d6af747957c79ec/1.14.2_Pre-Release_3.json",
+   "__url" : "https://launchermeta.mojang.com/v1/packages/7f33a966abc6dc701ca93cfeea1d7cd232ab6b0d/1.14.2%20Pre-Release%203.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -114,6 +114,7 @@
       "url" : "https://launchermeta.mojang.com/v1/packages/d6c94fad4f7a03a8e46083c023926515fc0e551e/1.14.json"
    },
    "assets" : "1.14",
+   "complianceLevel" : 0,
    "downloads" : {
       "client" : {
          "sha1" : "e1490260d733b18dfc573ab181f9f2df8fb34303",
@@ -127,17 +128,21 @@
       }
    },
    "id" : "1.14.2 Pre-Release 3",
+   "javaVersion" : {
+      "component" : "jre-legacy",
+      "majorVersion" : 8
+   },
    "libraries" : [
       {
          "downloads" : {
             "artifact" : {
-               "path" : "com/mojang/patchy/1.1/patchy-1.1.jar",
-               "sha1" : "aef610b34a1be37fa851825f12372b78424d8903",
-               "size" : 15817,
-               "url" : "https://libraries.minecraft.net/com/mojang/patchy/1.1/patchy-1.1.jar"
+               "path" : "com/mojang/patchy/1.2.3/patchy-1.2.3.jar",
+               "sha1" : "e3107ca512d704a434076a153a6e1149e3787275",
+               "size" : 22340,
+               "url" : "https://libraries.minecraft.net/com/mojang/patchy/1.2.3/patchy-1.2.3.jar"
             }
          },
-         "name" : "com.mojang:patchy:1.1"
+         "name" : "com.mojang:patchy:1.2.3"
       },
       {
          "downloads" : {
