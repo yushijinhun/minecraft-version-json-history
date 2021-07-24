@@ -1,0 +1,36 @@
+name: update_history
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  repository_dispatch:
+    types: [update_history]
+jobs:
+  update_history:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch version.json changes
+        id: fetch_changes
+        shell: bash
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          ./update.sh
+          git add -A
+          if git diff-index --quiet HEAD; then
+            # No changes
+            echo '::set-output name=changed::false'
+          else
+            # Changes detected
+            echo '::set-output name=changed::true'
+            git commit -m "Update version.json history
+
+            GitHub Action: https://github.com/${{ github.repository }}/actions/runs/$GITHUB_RUN_ID
+            "
+          fi
+      - name: Push changes
+        if: steps.fetch_changes.outputs.changed == 'true'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+
