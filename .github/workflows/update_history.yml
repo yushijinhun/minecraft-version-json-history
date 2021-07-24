@@ -8,6 +8,7 @@ jobs:
   update_history:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Fetch version.json changes
         id: fetch_changes
         shell: bash
