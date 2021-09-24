@@ -1,5 +1,5 @@
 {
-   "__url" : "https://launchermeta.mojang.com/v1/packages/381243982348d85f9cd2c1500af1c728526d7bad/1.16.4-pre1.json",
+   "__url" : "https://launchermeta.mojang.com/v1/packages/cd265e88495115b02c66cf99dbd838e9c5402a17/1.16.4-pre1.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -114,7 +114,7 @@
       "url" : "https://launchermeta.mojang.com/v1/packages/ad75fb46ff5c89aa5f9c90e12481e963854f9a6e/1.16.json"
    },
    "assets" : "1.16",
-   "complianceLevel" : 1,
+   "complianceLevel" : 0,
    "downloads" : {
       "client" : {
          "sha1" : "44745d09a0c6b8faca3989274996d5193cdc1560",
