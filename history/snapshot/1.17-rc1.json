@@ -1,5 +1,5 @@
 {
-   "__url" : "https://launchermeta.mojang.com/v1/packages/f1d66b003c7d69858ad837689c29c82e1a3d75aa/1.17-rc1.json",
+   "__url" : "https://launchermeta.mojang.com/v1/packages/0ddb07701b1a582addd77d0ffebcf55cc80d2718/1.17-rc1.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -1573,9 +1573,9 @@
          "argument" : "-Dlog4j.configurationFile=${path}",
          "file" : {
             "id" : "client-1.12.xml",
-            "sha1" : "ef4f57b922df243d0cef096efe808c72db042149",
-            "size" : 877,
-            "url" : "https://launcher.mojang.com/v1/objects/ef4f57b922df243d0cef096efe808c72db042149/client-1.12.xml"
+            "sha1" : "bd65e7d2e3c237be76cfbef4c2405033d7f91521",
+            "size" : 888,
+            "url" : "https://launcher.mojang.com/v1/objects/bd65e7d2e3c237be76cfbef4c2405033d7f91521/client-1.12.xml"
          },
          "type" : "log4j2-xml"
       }
