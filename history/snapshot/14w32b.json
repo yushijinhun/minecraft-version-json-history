@@ -1,5 +1,5 @@
 {
-   "__url" : "https://launchermeta.mojang.com/v1/packages/09bf53ea1e0d3658aeb62c7cdff38ffe7b5849c9/14w32b.json",
+   "__url" : "https://launchermeta.mojang.com/v1/packages/9a37ac58e413b7ec169631521194d177b269acd3/14w32b.json",
    "assetIndex" : {
       "id" : "14w31a",
       "sha1" : "10a2a0e75b03cfb5a7196abbdf43b54f7fa61deb",
@@ -508,9 +508,9 @@
          "argument" : "-Dlog4j.configurationFile=${path}",
          "file" : {
             "id" : "client-1.7.xml",
-            "sha1" : "14fedd49897b3f6160975bdf3a53e1e7eab71d29",
-            "size" : 962,
-            "url" : "https://launcher.mojang.com/v1/objects/14fedd49897b3f6160975bdf3a53e1e7eab71d29/client-1.7.xml"
+            "sha1" : "50c9cc4af6d853d9fc137c84bcd153e2bd3a9a82",
+            "size" : 966,
+            "url" : "https://launcher.mojang.com/v1/objects/50c9cc4af6d853d9fc137c84bcd153e2bd3a9a82/client-1.7.xml"
          },
          "type" : "log4j2-xml"
       }
