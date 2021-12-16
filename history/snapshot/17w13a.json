@@ -1,5 +1,5 @@
 {
-   "__url" : "https://launchermeta.mojang.com/v1/packages/b007a09e82f9a80f5156c684773b140c54497e8e/17w13a.json",
+   "__url" : "https://launchermeta.mojang.com/v1/packages/01f88db38661f78a52e21aefed8215e0fb01a6ee/17w13a.json",
    "assetIndex" : {
       "id" : "1.12",
       "sha1" : "1584b57c1a0b5e593fad1f5b8f78536ca640547b",
@@ -30,13 +30,13 @@
       {
          "downloads" : {
             "artifact" : {
-               "path" : "com/mojang/netty/1.7.7/netty-1.7.7.jar",
-               "sha1" : "dc4a57fabcfdfc66420751f29cda96644d0294f7",
-               "size" : 14725,
-               "url" : "https://libraries.minecraft.net/com/mojang/netty/1.7.7/netty-1.7.7.jar"
+               "path" : "com/mojang/netty/1.8.8/netty-1.8.8.jar",
+               "sha1" : "0a796914d1c8a55b4da9f4a8856dd9623375d8bb",
+               "size" : 15966,
+               "url" : "https://libraries.minecraft.net/com/mojang/netty/1.8.8/netty-1.8.8.jar"
             }
          },
-         "name" : "com.mojang:netty:1.7.7"
+         "name" : "com.mojang:netty:1.8.8"
       },
       {
          "downloads" : {
