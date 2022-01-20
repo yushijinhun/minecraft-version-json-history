@@ -1,5 +1,5 @@
 {
-   "__url" : "https://launchermeta.mojang.com/v1/packages/661cbcdc94ddf44ca2e072b1f5f13441f70b53f0/1.18-rc3.json",
+   "__url" : "https://launchermeta.mojang.com/v1/packages/bc929fdc30d26147d00f7b32ea20d838be93f709/1.18-rc3.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -112,10 +112,10 @@
    },
    "assetIndex" : {
       "id" : "1.18",
-      "sha1" : "6b87c76d1edcb1fb0d933382cbb8bb8483c362c4",
-      "size" : 348135,
-      "totalSize" : 465840848,
-      "url" : "https://launchermeta.mojang.com/v1/packages/6b87c76d1edcb1fb0d933382cbb8bb8483c362c4/1.18.json"
+      "sha1" : "77ed3c6d51997991b61b8e5a80688602a816115a",
+      "size" : 348331,
+      "totalSize" : 466466695,
+      "url" : "https://launchermeta.mojang.com/v1/packages/77ed3c6d51997991b61b8e5a80688602a816115a/1.18.json"
    },
    "assets" : "1.18",
    "complianceLevel" : 1,
