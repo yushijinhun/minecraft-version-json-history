@@ -1,5 +1,5 @@
 {
-   "__url" : "https://launchermeta.mojang.com/v1/packages/39e7d52d0e8f191096d6b7c2753fd7813f3d3efd/22w13oneblockatatime.json",
+   "__url" : "https://launchermeta.mojang.com/v1/packages/759632760f2894f9cba319dd329fd625e7d83893/22w13oneblockatatime.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -1586,7 +1586,7 @@
    },
    "mainClass" : "net.minecraft.client.main.Main",
    "minimumLauncherVersion" : 21,
-   "releaseTime" : "2022-04-01T11:56:58+00:00",
-   "time" : "2022-04-01T11:56:58+00:00",
+   "releaseTime" : "2022-03-30T11:56:58+00:00",
+   "time" : "2022-03-30T11:56:58+00:00",
    "type" : "snapshot"
 }
