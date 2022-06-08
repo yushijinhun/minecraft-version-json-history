@@ -1,5 +1,5 @@
 {
-   "__url" : "https://launchermeta.mojang.com/v1/packages/d1eef07b99bc3eccfc1ae7d8392bb9083c0dd515/1.19-rc1.json",
+   "__url" : "https://launchermeta.mojang.com/v1/packages/76839fc33609dfd354b9c519f46bbea2afac9e06/1.19.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -121,27 +121,27 @@
    "complianceLevel" : 1,
    "downloads" : {
       "client" : {
-         "sha1" : "3d459711d39ba6b7867cc84f443e0bfdcfd4dde0",
-         "size" : 21462888,
-         "url" : "https://launcher.mojang.com/v1/objects/3d459711d39ba6b7867cc84f443e0bfdcfd4dde0/client.jar"
+         "sha1" : "c0898ec7c6a5a2eaa317770203a1554260699994",
+         "size" : 21462385,
+         "url" : "https://launcher.mojang.com/v1/objects/c0898ec7c6a5a2eaa317770203a1554260699994/client.jar"
       },
       "client_mappings" : {
-         "sha1" : "36362e4f467b3b4209192eb7dcf990ee94245ad9",
+         "sha1" : "150346d1c0b4acec0b4eb7f58b86e3ea1aa730f3",
          "size" : 7123832,
-         "url" : "https://launcher.mojang.com/v1/objects/36362e4f467b3b4209192eb7dcf990ee94245ad9/client.txt"
+         "url" : "https://launcher.mojang.com/v1/objects/150346d1c0b4acec0b4eb7f58b86e3ea1aa730f3/client.txt"
       },
       "server" : {
-         "sha1" : "76ebdba03954e5a2185fb7a1d3a25096eb6bd195",
-         "size" : 45539835,
-         "url" : "https://launcher.mojang.com/v1/objects/76ebdba03954e5a2185fb7a1d3a25096eb6bd195/server.jar"
+         "sha1" : "e00c4052dac1d59a1188b2aa9d5a87113aaf1122",
+         "size" : 45538778,
+         "url" : "https://launcher.mojang.com/v1/objects/e00c4052dac1d59a1188b2aa9d5a87113aaf1122/server.jar"
       },
       "server_mappings" : {
-         "sha1" : "84cf610e282cef1d158df2113902b403759260d8",
+         "sha1" : "1c1cea17d5cd63d68356df2ef31e724dd09f8c26",
          "size" : 5552032,
-         "url" : "https://launcher.mojang.com/v1/objects/84cf610e282cef1d158df2113902b403759260d8/server.txt"
+         "url" : "https://launcher.mojang.com/v1/objects/1c1cea17d5cd63d68356df2ef31e724dd09f8c26/server.txt"
       }
    },
-   "id" : "1.19-rc1",
+   "id" : "1.19",
    "javaVersion" : {
       "component" : "java-runtime-gamma",
       "majorVersion" : 17
@@ -1395,7 +1395,7 @@
    },
    "mainClass" : "net.minecraft.client.main.Main",
    "minimumLauncherVersion" : 21,
-   "releaseTime" : "2022-06-02T12:12:52+00:00",
-   "time" : "2022-06-02T12:12:52+00:00",
-   "type" : "snapshot"
+   "releaseTime" : "2022-06-07T09:42:18+00:00",
+   "time" : "2022-06-07T09:42:18+00:00",
+   "type" : "release"
 }
