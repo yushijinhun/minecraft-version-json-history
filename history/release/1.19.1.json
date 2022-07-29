@@ -1,5 +1,5 @@
 {
-   "__url" : "https://piston-meta.mojang.com/v1/packages/ccdbe5073004b9276479ccc92faf8c69d5172759/1.19.1.json",
+   "__url" : "https://piston-meta.mojang.com/v1/packages/ae2cfa3c2dc55d5586a58757f5d4d75eb56b774c/1.19.1.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -485,13 +485,13 @@
       {
          "downloads" : {
             "artifact" : {
-               "path" : "com/mojang/authlib/3.11.49/authlib-3.11.49.jar",
-               "sha1" : "2e3055ec2a017c7f94b79744b4a68b65695a118c",
-               "size" : 120100,
-               "url" : "https://libraries.minecraft.net/com/mojang/authlib/3.11.49/authlib-3.11.49.jar"
+               "path" : "com/mojang/authlib/3.11.50/authlib-3.11.50.jar",
+               "sha1" : "d26e165f536bed17538fd1e6bd0668e8b2ce131a",
+               "size" : 120233,
+               "url" : "https://libraries.minecraft.net/com/mojang/authlib/3.11.50/authlib-3.11.50.jar"
             }
          },
-         "name" : "com.mojang:authlib:3.11.49"
+         "name" : "com.mojang:authlib:3.11.50"
       },
       {
          "downloads" : {
