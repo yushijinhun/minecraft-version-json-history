@@ -1,7 +1,7 @@
 name: update_history
 on:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '45 */3 * * *'
   repository_dispatch:
     types: [update_history]
 jobs:
