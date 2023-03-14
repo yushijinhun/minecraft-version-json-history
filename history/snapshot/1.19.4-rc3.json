@@ -1,5 +1,5 @@
 {
-   "__url" : "https://piston-meta.mojang.com/v1/packages/2de9879ed60140ffefa4f41d6992678db42040a2/1.19.4-rc1.json",
+   "__url" : "https://piston-meta.mojang.com/v1/packages/8fa64e2a7e4d95c98e143f90019510680fc7f666/1.19.4-rc3.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -121,19 +121,19 @@
    "complianceLevel" : 1,
    "downloads" : {
       "client" : {
-         "sha1" : "d516cfa228f59e4b6f829a1742efe36b72065e8c",
-         "size" : 23476157,
-         "url" : "https://piston-data.mojang.com/v1/objects/d516cfa228f59e4b6f829a1742efe36b72065e8c/client.jar"
+         "sha1" : "a45634ab061beb8c878ccbe4a59c3315f9c0266f",
+         "size" : 23476407,
+         "url" : "https://piston-data.mojang.com/v1/objects/a45634ab061beb8c878ccbe4a59c3315f9c0266f/client.jar"
       },
       "client_mappings" : {
-         "sha1" : "b3937044d212fd2cf0439b6d34fb08726bfeec8b",
+         "sha1" : "f71adb4247d2619af6f6c8f06cd106259931860c",
          "size" : 7844127,
-         "url" : "https://piston-data.mojang.com/v1/objects/b3937044d212fd2cf0439b6d34fb08726bfeec8b/client.txt"
+         "url" : "https://piston-data.mojang.com/v1/objects/f71adb4247d2619af6f6c8f06cd106259931860c/client.txt"
       },
       "server" : {
-         "sha1" : "c41c9653dc18634f52c010040177deabf9a878f2",
-         "size" : 47520569,
-         "url" : "https://piston-data.mojang.com/v1/objects/c41c9653dc18634f52c010040177deabf9a878f2/server.jar"
+         "sha1" : "905778cc578c5a1757a9358a3feb5c19a0178fec",
+         "size" : 47519357,
+         "url" : "https://piston-data.mojang.com/v1/objects/905778cc578c5a1757a9358a3feb5c19a0178fec/server.jar"
       },
       "server_mappings" : {
          "sha1" : "9aea4cf2285542a205e9fb54562d0cedb0a38fb0",
@@ -141,7 +141,7 @@
          "url" : "https://piston-data.mojang.com/v1/objects/9aea4cf2285542a205e9fb54562d0cedb0a38fb0/server.txt"
       }
    },
-   "id" : "1.19.4-rc1",
+   "id" : "1.19.4-rc3",
    "javaVersion" : {
       "component" : "java-runtime-gamma",
       "majorVersion" : 17
@@ -1395,7 +1395,7 @@
    },
    "mainClass" : "net.minecraft.client.main.Main",
    "minimumLauncherVersion" : 21,
-   "releaseTime" : "2023-03-09T14:35:50+00:00",
-   "time" : "2023-03-09T14:35:50+00:00",
+   "releaseTime" : "2023-03-13T10:03:11+00:00",
+   "time" : "2023-03-13T10:03:11+00:00",
    "type" : "snapshot"
 }
