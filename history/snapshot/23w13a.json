@@ -1,5 +1,5 @@
 {
-   "__url" : "https://piston-meta.mojang.com/v1/packages/76cd334a7f3c7c5a80511e0b3e6ddcdb76988d68/1.19.3-rc2.json",
+   "__url" : "https://piston-meta.mojang.com/v1/packages/c4f1c7689088091cd37623e800d82a03836e2137/23w13a.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -111,37 +111,37 @@
       ]
    },
    "assetIndex" : {
-      "id" : "2",
-      "sha1" : "fd4e0f71ca5eb8b0eac5f0ead2ac48b1d911e315",
-      "size" : 405671,
-      "totalSize" : 554770597,
-      "url" : "https://piston-meta.mojang.com/v1/packages/fd4e0f71ca5eb8b0eac5f0ead2ac48b1d911e315/2.json"
+      "id" : "3",
+      "sha1" : "7389fe0c1e9d3fbb9cdba474a509bd0ef46b0613",
+      "size" : 409894,
+      "totalSize" : 555532812,
+      "url" : "https://piston-meta.mojang.com/v1/packages/7389fe0c1e9d3fbb9cdba474a509bd0ef46b0613/3.json"
    },
-   "assets" : "2",
+   "assets" : "3",
    "complianceLevel" : 1,
    "downloads" : {
       "client" : {
-         "sha1" : "f53a7f667a494d8ebb99ea98ddc138959860a6ea",
-         "size" : 22703283,
-         "url" : "https://piston-data.mojang.com/v1/objects/f53a7f667a494d8ebb99ea98ddc138959860a6ea/client.jar"
+         "sha1" : "3d0352a4a7ea2e849a7675b37b1c87e07884da50",
+         "size" : 23581800,
+         "url" : "https://piston-data.mojang.com/v1/objects/3d0352a4a7ea2e849a7675b37b1c87e07884da50/client.jar"
       },
       "client_mappings" : {
-         "sha1" : "0f5b51d4d96c08968173c2d15442c1435aede3d1",
-         "size" : 7573308,
-         "url" : "https://piston-data.mojang.com/v1/objects/0f5b51d4d96c08968173c2d15442c1435aede3d1/client.txt"
+         "sha1" : "94aac1b5f7658ce7d88b76bf787944c39ed0a5b6",
+         "size" : 7874434,
+         "url" : "https://piston-data.mojang.com/v1/objects/94aac1b5f7658ce7d88b76bf787944c39ed0a5b6/client.txt"
       },
       "server" : {
-         "sha1" : "138c813e22102e1a82a1be7b76080f40235183fe",
-         "size" : 47163170,
-         "url" : "https://piston-data.mojang.com/v1/objects/138c813e22102e1a82a1be7b76080f40235183fe/server.jar"
+         "sha1" : "701767d4d07aad992e3e2875ae5d1485cebf66e0",
+         "size" : 47569659,
+         "url" : "https://piston-data.mojang.com/v1/objects/701767d4d07aad992e3e2875ae5d1485cebf66e0/server.jar"
       },
       "server_mappings" : {
-         "sha1" : "0d0407d32a14c98f43f272ebca0858135ea306d7",
-         "size" : 5851996,
-         "url" : "https://piston-data.mojang.com/v1/objects/0d0407d32a14c98f43f272ebca0858135ea306d7/server.txt"
+         "sha1" : "9cd2634d8c52f0a76f63d4ea89c77c9ccaf662c2",
+         "size" : 6070293,
+         "url" : "https://piston-data.mojang.com/v1/objects/9cd2634d8c52f0a76f63d4ea89c77c9ccaf662c2/server.txt"
       }
    },
-   "id" : "1.19.3-rc2",
+   "id" : "23w13a",
    "javaVersion" : {
       "component" : "java-runtime-gamma",
       "majorVersion" : 17
@@ -224,13 +224,13 @@
       {
          "downloads" : {
             "artifact" : {
-               "path" : "com/mojang/authlib/3.16.29/authlib-3.16.29.jar",
-               "sha1" : "efcca7a2fd33a399287834787f3a899086752b14",
-               "size" : 117060,
-               "url" : "https://libraries.minecraft.net/com/mojang/authlib/3.16.29/authlib-3.16.29.jar"
+               "path" : "com/mojang/authlib/3.18.38/authlib-3.18.38.jar",
+               "sha1" : "016106b26bce62bda55bab42785b999e44d77ecb",
+               "size" : 118354,
+               "url" : "https://libraries.minecraft.net/com/mojang/authlib/3.18.38/authlib-3.18.38.jar"
             }
          },
-         "name" : "com.mojang:authlib:3.16.29"
+         "name" : "com.mojang:authlib:3.18.38"
       },
       {
          "downloads" : {
@@ -257,24 +257,13 @@
       {
          "downloads" : {
             "artifact" : {
-               "path" : "com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar",
-               "sha1" : "e2157e236e529aff80a5fc3ccb506e56d46b130b",
-               "size" : 684966,
-               "url" : "https://libraries.minecraft.net/com/mojang/datafixerupper/5.0.28/datafixerupper-5.0.28.jar"
+               "path" : "com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar",
+               "sha1" : "3ba4a30557a9b057760af4011f909ba619fc5125",
+               "size" : 689960,
+               "url" : "https://libraries.minecraft.net/com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar"
             }
          },
-         "name" : "com.mojang:datafixerupper:5.0.28"
-      },
-      {
-         "downloads" : {
-            "artifact" : {
-               "path" : "com/mojang/javabridge/2.0.25/javabridge-2.0.25.jar",
-               "sha1" : "bfa589b0bd71588fa7e594640114b0cda0cff5f6",
-               "size" : 5884,
-               "url" : "https://libraries.minecraft.net/com/mojang/javabridge/2.0.25/javabridge-2.0.25.jar"
-            }
-         },
-         "name" : "com.mojang:javabridge:2.0.25"
+         "name" : "com.mojang:datafixerupper:6.0.8"
       },
       {
          "downloads" : {
@@ -1406,7 +1395,7 @@
    },
    "mainClass" : "net.minecraft.client.main.Main",
    "minimumLauncherVersion" : 21,
-   "releaseTime" : "2022-12-05T13:21:34+00:00",
-   "time" : "2022-12-05T13:21:34+00:00",
+   "releaseTime" : "2023-03-29T13:54:16+00:00",
+   "time" : "2023-03-29T13:54:16+00:00",
    "type" : "snapshot"
 }
