@@ -1,5 +1,5 @@
 {
-   "__url" : "https://piston-meta.mojang.com/v1/packages/4944d0714e311adaa446ff7a88c101dc8cab8f20/1.20-pre1.json",
+   "__url" : "https://piston-meta.mojang.com/v1/packages/551f6170ebfacf374b13e26f66138dbeef9e9ad4/1.20.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -165,27 +165,27 @@
    "complianceLevel" : 1,
    "downloads" : {
       "client" : {
-         "sha1" : "07dfbe4c383c4bb6d26254e49c0fce5398bab5b5",
-         "size" : 23679158,
-         "url" : "https://piston-data.mojang.com/v1/objects/07dfbe4c383c4bb6d26254e49c0fce5398bab5b5/client.jar"
+         "sha1" : "e575a48efda46cf88111ba05b624ef90c520eef1",
+         "size" : 23028278,
+         "url" : "https://piston-data.mojang.com/v1/objects/e575a48efda46cf88111ba05b624ef90c520eef1/client.jar"
       },
       "client_mappings" : {
-         "sha1" : "3d18c8c01be96a69df87d82590c4d9f832bce3cb",
-         "size" : 7951073,
-         "url" : "https://piston-data.mojang.com/v1/objects/3d18c8c01be96a69df87d82590c4d9f832bce3cb/client.txt"
+         "sha1" : "a4cd9a97400f7ecfe4dba23e427549ebc5815d66",
+         "size" : 8001434,
+         "url" : "https://piston-data.mojang.com/v1/objects/a4cd9a97400f7ecfe4dba23e427549ebc5815d66/client.txt"
       },
       "server" : {
-         "sha1" : "95ac4bf3d2f4ae57687493f5232d3f58334b85d2",
-         "size" : 48137878,
-         "url" : "https://piston-data.mojang.com/v1/objects/95ac4bf3d2f4ae57687493f5232d3f58334b85d2/server.jar"
+         "sha1" : "15c777e2cfe0556eef19aab534b186c0c6f277e1",
+         "size" : 47787288,
+         "url" : "https://piston-data.mojang.com/v1/objects/15c777e2cfe0556eef19aab534b186c0c6f277e1/server.jar"
       },
       "server_mappings" : {
-         "sha1" : "1b814e6ebe797dad614eb07efc3ff77334d4b5f0",
-         "size" : 6108952,
-         "url" : "https://piston-data.mojang.com/v1/objects/1b814e6ebe797dad614eb07efc3ff77334d4b5f0/server.txt"
+         "sha1" : "15e61168fd24c7950b22cd3b9e771a7ce4035b41",
+         "size" : 6153964,
+         "url" : "https://piston-data.mojang.com/v1/objects/15e61168fd24c7950b22cd3b9e771a7ce4035b41/server.txt"
       }
    },
-   "id" : "1.20-pre1",
+   "id" : "1.20",
    "javaVersion" : {
       "component" : "java-runtime-gamma",
       "majorVersion" : 17
@@ -268,13 +268,13 @@
       {
          "downloads" : {
             "artifact" : {
-               "path" : "com/mojang/authlib/4.0.42/authlib-4.0.42.jar",
-               "sha1" : "3381044d57a291a541ca0836b0119abe063acb93",
-               "size" : 121603,
-               "url" : "https://libraries.minecraft.net/com/mojang/authlib/4.0.42/authlib-4.0.42.jar"
+               "path" : "com/mojang/authlib/4.0.43/authlib-4.0.43.jar",
+               "sha1" : "2ff9d747a77570a07a60d32ac77eb6162ad2a2d9",
+               "size" : 121766,
+               "url" : "https://libraries.minecraft.net/com/mojang/authlib/4.0.43/authlib-4.0.43.jar"
             }
          },
-         "name" : "com.mojang:authlib:4.0.42"
+         "name" : "com.mojang:authlib:4.0.43"
       },
       {
          "downloads" : {
@@ -334,13 +334,13 @@
       {
          "downloads" : {
             "artifact" : {
-               "path" : "com/mojang/text2speech/1.16.8/text2speech-1.16.8.jar",
-               "sha1" : "01b3a7718bbdad624537597ff3ca38a0f232df87",
-               "size" : 12238,
-               "url" : "https://libraries.minecraft.net/com/mojang/text2speech/1.16.8/text2speech-1.16.8.jar"
+               "path" : "com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar",
+               "sha1" : "3cad216e3a7f0c19b4b394388bc9ffc446f13b14",
+               "size" : 12243,
+               "url" : "https://libraries.minecraft.net/com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar"
             }
          },
-         "name" : "com.mojang:text2speech:1.16.8"
+         "name" : "com.mojang:text2speech:1.17.9"
       },
       {
          "downloads" : {
@@ -1534,7 +1534,7 @@
    },
    "mainClass" : "net.minecraft.client.main.Main",
    "minimumLauncherVersion" : 21,
-   "releaseTime" : "2023-05-10T12:19:34+00:00",
-   "time" : "2023-05-10T12:19:34+00:00",
-   "type" : "snapshot"
+   "releaseTime" : "2023-06-02T08:36:17+00:00",
+   "time" : "2023-06-02T08:36:17+00:00",
+   "type" : "release"
 }

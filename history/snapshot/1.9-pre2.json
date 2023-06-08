@@ -1,11 +1,11 @@
 {
-   "__url" : "https://piston-meta.mojang.com/v1/packages/14e95ebcd3fb703c84183b8e84931563b03f84bc/1.9-pre2.json",
+   "__url" : "https://piston-meta.mojang.com/v1/packages/99775b58e157766cb7c4058b244a1a2b357b0889/1.9-pre2.json",
    "assetIndex" : {
       "id" : "1.9",
-      "sha1" : "06cc9a2c5ce504dc712ea2f699e4d645c48416dd",
-      "size" : 114466,
-      "totalSize" : 121072889,
-      "url" : "https://launchermeta.mojang.com/v1/packages/06cc9a2c5ce504dc712ea2f699e4d645c48416dd/1.9.json"
+      "sha1" : "d7aae43ea69d80cc3441bee4179abd791f6534cd",
+      "size" : 114464,
+      "totalSize" : 121580281,
+      "url" : "https://piston-meta.mojang.com/v1/packages/d7aae43ea69d80cc3441bee4179abd791f6534cd/1.9.json"
    },
    "assets" : "1.9",
    "complianceLevel" : 0,
@@ -13,12 +13,12 @@
       "client" : {
          "sha1" : "c61b03c6a0cdc7ee87f2bc0b707ce27ded2fa066",
          "size" : 8695482,
-         "url" : "https://launcher.mojang.com/v1/objects/c61b03c6a0cdc7ee87f2bc0b707ce27ded2fa066/client.jar"
+         "url" : "https://piston-data.mojang.com/v1/objects/c61b03c6a0cdc7ee87f2bc0b707ce27ded2fa066/client.jar"
       },
       "server" : {
          "sha1" : "ac6c4226ca5f1f7ea4c6f936f88d1df7c82d3a92",
          "size" : 8846020,
-         "url" : "https://launcher.mojang.com/v1/objects/ac6c4226ca5f1f7ea4c6f936f88d1df7c82d3a92/server.jar"
+         "url" : "https://piston-data.mojang.com/v1/objects/ac6c4226ca5f1f7ea4c6f936f88d1df7c82d3a92/server.jar"
       }
    },
    "id" : "1.9-pre2",
@@ -544,7 +544,7 @@
             "id" : "client-1.7.xml",
             "sha1" : "50c9cc4af6d853d9fc137c84bcd153e2bd3a9a82",
             "size" : 966,
-            "url" : "https://launcher.mojang.com/v1/objects/50c9cc4af6d853d9fc137c84bcd153e2bd3a9a82/client-1.7.xml"
+            "url" : "https://piston-data.mojang.com/v1/objects/50c9cc4af6d853d9fc137c84bcd153e2bd3a9a82/client-1.7.xml"
          },
          "type" : "log4j2-xml"
       }
