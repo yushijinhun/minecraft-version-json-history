@@ -1,5 +1,5 @@
 {
-   "__url" : "https://piston-meta.mojang.com/v1/packages/aef67df23dd2720232854397106d903e366cc78c/23w17a.json",
+   "__url" : "https://piston-meta.mojang.com/v1/packages/483d6eb93bc1e2dea7db3c8447049e9733de2bf8/1.20.1-rc1.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -138,21 +138,6 @@
                {
                   "action" : "allow",
                   "os" : {
-                     "name" : "windows",
-                     "version" : "^10\\."
-                  }
-               }
-            ],
-            "value" : [
-               "-Dos.name=Windows 10",
-               "-Dos.version=10.0"
-            ]
-         },
-         {
-            "rules" : [
-               {
-                  "action" : "allow",
-                  "os" : {
                      "arch" : "x86"
                   }
                }
@@ -160,6 +145,9 @@
             "value" : "-Xss1M"
          },
          "-Djava.library.path=${natives_directory}",
+         "-Djna.tmpdir=${natives_directory}",
+         "-Dorg.lwjgl.system.SharedLibraryExtractPath=${natives_directory}",
+         "-Dio.netty.native.workdir=${natives_directory}",
          "-Dminecraft.launcher.brand=${launcher_name}",
          "-Dminecraft.launcher.version=${launcher_version}",
          "-cp",
@@ -177,27 +165,27 @@
    "complianceLevel" : 1,
    "downloads" : {
       "client" : {
-         "sha1" : "670d97ddfe62983a7bfa7c6c6f502d6157735bf8",
-         "size" : 22892644,
-         "url" : "https://piston-data.mojang.com/v1/objects/670d97ddfe62983a7bfa7c6c6f502d6157735bf8/client.jar"
+         "sha1" : "7daaccba521899b14da6c60ed1ab01805bffeec7",
+         "size" : 23028921,
+         "url" : "https://piston-data.mojang.com/v1/objects/7daaccba521899b14da6c60ed1ab01805bffeec7/client.jar"
       },
       "client_mappings" : {
-         "sha1" : "6b39b26446b6c239df9365dfc89c0b06f9d7e6de",
-         "size" : 7925762,
-         "url" : "https://piston-data.mojang.com/v1/objects/6b39b26446b6c239df9365dfc89c0b06f9d7e6de/client.txt"
+         "sha1" : "ec3527c736be91910f7986bd18874ace9884386f",
+         "size" : 8001795,
+         "url" : "https://piston-data.mojang.com/v1/objects/ec3527c736be91910f7986bd18874ace9884386f/client.txt"
       },
       "server" : {
-         "sha1" : "96e1b9db0f3d90309db34e8ce4fd39b52f6ddaa0",
-         "size" : 47694766,
-         "url" : "https://piston-data.mojang.com/v1/objects/96e1b9db0f3d90309db34e8ce4fd39b52f6ddaa0/server.jar"
+         "sha1" : "6890ac51068a05e3fcc4158478247e5a5e47bcac",
+         "size" : 47790205,
+         "url" : "https://piston-data.mojang.com/v1/objects/6890ac51068a05e3fcc4158478247e5a5e47bcac/server.jar"
       },
       "server_mappings" : {
-         "sha1" : "fa5f3188bb2d39796e83a7924edbf212edec8f4e",
-         "size" : 6098494,
-         "url" : "https://piston-data.mojang.com/v1/objects/fa5f3188bb2d39796e83a7924edbf212edec8f4e/server.txt"
+         "sha1" : "edc6386d1fb5681b82f971877720a7e5914761c3",
+         "size" : 6154195,
+         "url" : "https://piston-data.mojang.com/v1/objects/edc6386d1fb5681b82f971877720a7e5914761c3/server.txt"
       }
    },
-   "id" : "23w17a",
+   "id" : "1.20.1-rc1",
    "javaVersion" : {
       "component" : "java-runtime-gamma",
       "majorVersion" : 17
@@ -280,13 +268,13 @@
       {
          "downloads" : {
             "artifact" : {
-               "path" : "com/mojang/authlib/4.0.42/authlib-4.0.42.jar",
-               "sha1" : "3381044d57a291a541ca0836b0119abe063acb93",
-               "size" : 121603,
-               "url" : "https://libraries.minecraft.net/com/mojang/authlib/4.0.42/authlib-4.0.42.jar"
+               "path" : "com/mojang/authlib/4.0.43/authlib-4.0.43.jar",
+               "sha1" : "2ff9d747a77570a07a60d32ac77eb6162ad2a2d9",
+               "size" : 121766,
+               "url" : "https://libraries.minecraft.net/com/mojang/authlib/4.0.43/authlib-4.0.43.jar"
             }
          },
-         "name" : "com.mojang:authlib:4.0.42"
+         "name" : "com.mojang:authlib:4.0.43"
       },
       {
          "downloads" : {
@@ -346,13 +334,13 @@
       {
          "downloads" : {
             "artifact" : {
-               "path" : "com/mojang/text2speech/1.16.7/text2speech-1.16.7.jar",
-               "sha1" : "ee4095669061d1fe4bce5fea23d69d1520bc2d58",
-               "size" : 12279,
-               "url" : "https://libraries.minecraft.net/com/mojang/text2speech/1.16.7/text2speech-1.16.7.jar"
+               "path" : "com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar",
+               "sha1" : "3cad216e3a7f0c19b4b394388bc9ffc446f13b14",
+               "size" : 12243,
+               "url" : "https://libraries.minecraft.net/com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar"
             }
          },
-         "name" : "com.mojang:text2speech:1.16.7"
+         "name" : "com.mojang:text2speech:1.17.9"
       },
       {
          "downloads" : {
@@ -1546,7 +1534,7 @@
    },
    "mainClass" : "net.minecraft.client.main.Main",
    "minimumLauncherVersion" : 21,
-   "releaseTime" : "2023-04-26T12:09:48+00:00",
-   "time" : "2023-04-26T12:09:48+00:00",
+   "releaseTime" : "2023-06-09T14:15:49+00:00",
+   "time" : "2023-06-09T14:15:49+00:00",
    "type" : "snapshot"
 }
