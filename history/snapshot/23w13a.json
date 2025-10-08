@@ -1,5 +1,5 @@
 {
-   "__url" : "https://piston-meta.mojang.com/v1/packages/851428473553590913a819077a05b600303e14d5/23w13a.json",
+   "__url" : "https://piston-meta.mojang.com/v1/packages/9f897fecf02f0c2a260e2b7a3f4464f7c37ba380/23w13a.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -112,10 +112,10 @@
    },
    "assetIndex" : {
       "id" : "3",
-      "sha1" : "bdb6c5460db864fe3f554282dd3935b997d36c27",
+      "sha1" : "83953d7dd549080af16666d8a05e04dc122f184e",
       "size" : 411085,
-      "totalSize" : 579238551,
-      "url" : "https://piston-meta.mojang.com/v1/packages/bdb6c5460db864fe3f554282dd3935b997d36c27/3.json"
+      "totalSize" : 579241454,
+      "url" : "https://piston-meta.mojang.com/v1/packages/83953d7dd549080af16666d8a05e04dc122f184e/3.json"
    },
    "assets" : "3",
    "complianceLevel" : 1,
