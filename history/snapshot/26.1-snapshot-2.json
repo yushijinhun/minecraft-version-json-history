@@ -1,6 +1,63 @@
 {
-   "__url" : "https://piston-meta.mojang.com/v1/packages/058eea89aac5ef3dcc8149fd9f0be33312f661ac/25w45a.json",
+   "__url" : "https://piston-meta.mojang.com/v1/packages/fff9c832e266d274b723b83fd18a0b64a5ee3ef7/26.1-snapshot-2.json",
    "arguments" : {
+      "default-user-jvm" : [
+         {
+            "value" : [
+               "-Xms4G",
+               "-Xmx4G"
+            ]
+         },
+         {
+            "rules" : [
+               {
+                  "action" : "allow",
+                  "os" : {
+                     "name" : "osx"
+                  }
+               },
+               {
+                  "action" : "allow",
+                  "os" : {
+                     "name" : "linux"
+                  }
+               },
+               {
+                  "action" : "allow",
+                  "os" : {
+                     "name" : "windows",
+                     "versionRange" : {
+                        "min" : "10.0.17134"
+                     }
+                  }
+               }
+            ],
+            "value" : [
+               "-XX:+UseZGC"
+            ]
+         },
+         {
+            "rules" : [
+               {
+                  "action" : "allow",
+                  "os" : {
+                     "name" : "windows",
+                     "versionRange" : {
+                        "max" : "10.0.17134"
+                     }
+                  }
+               }
+            ],
+            "value" : [
+               "-XX:+UnlockExperimentalVMOptions",
+               "-XX:+UseG1GC",
+               "-XX:G1NewSizePercent=20",
+               "-XX:G1ReservePercent=20",
+               "-XX:MaxGCPauseMillis=50",
+               "-XX:G1HeapRegionSize=32M"
+            ]
+         }
+      ],
       "game" : [
          "--username",
          "${auth_player_name}",
@@ -142,6 +199,8 @@
             ],
             "value" : "-Xss1M"
          },
+         "--sun-misc-unsafe-memory-access=allow",
+         "--enable-native-access=ALL-UNNAMED",
          "-Djava.library.path=${natives_directory}",
          "-Djna.tmpdir=${natives_directory}",
          "-Dorg.lwjgl.system.SharedLibraryExtractPath=${natives_directory}",
@@ -153,42 +212,43 @@
       ]
    },
    "assetIndex" : {
-      "id" : "28",
-      "sha1" : "52423501b8cb3d476a71f92e39d35603e070c7f0",
-      "size" : 523741,
-      "totalSize" : 438648779,
-      "url" : "https://piston-meta.mojang.com/v1/packages/52423501b8cb3d476a71f92e39d35603e070c7f0/28.json"
+      "id" : "30",
+      "sha1" : "8b7bad607099d20bc808202adc544e43ab083e7f",
+      "size" : 535356,
+      "totalSize" : 439619320,
+      "url" : "https://piston-meta.mojang.com/v1/packages/8b7bad607099d20bc808202adc544e43ab083e7f/30.json"
    },
-   "assets" : "28",
+   "assets" : "30",
    "complianceLevel" : 1,
    "downloads" : {
       "client" : {
-         "sha1" : "d9e25f7e65c41e8fa8c69a9f11a6d5132860af64",
-         "size" : 31060443,
-         "url" : "https://piston-data.mojang.com/v1/objects/d9e25f7e65c41e8fa8c69a9f11a6d5132860af64/client.jar"
-      },
-      "client_mappings" : {
-         "sha1" : "aba6c935a1e77328729ab6e8873a8ffe54af47fc",
-         "size" : 11717753,
-         "url" : "https://piston-data.mojang.com/v1/objects/aba6c935a1e77328729ab6e8873a8ffe54af47fc/client.txt"
+         "sha1" : "2443ba7d3c92457e00e75a4363a601461ebd3ed4",
+         "size" : 37283304,
+         "url" : "https://piston-data.mojang.com/v1/objects/2443ba7d3c92457e00e75a4363a601461ebd3ed4/client.jar"
       },
       "server" : {
-         "sha1" : "4c0fe96ca002d7049226a740194c8d7114bd5059",
-         "size" : 56301710,
-         "url" : "https://piston-data.mojang.com/v1/objects/4c0fe96ca002d7049226a740194c8d7114bd5059/server.jar"
-      },
-      "server_mappings" : {
-         "sha1" : "b6f8fea06989fcc556a9ff78a4509869c54b8905",
-         "size" : 8646946,
-         "url" : "https://piston-data.mojang.com/v1/objects/b6f8fea06989fcc556a9ff78a4509869c54b8905/server.txt"
+         "sha1" : "165c30e5076a13848404f41692ff1e0126d0a6f3",
+         "size" : 60053273,
+         "url" : "https://piston-data.mojang.com/v1/objects/165c30e5076a13848404f41692ff1e0126d0a6f3/server.jar"
       }
    },
-   "id" : "25w45a",
+   "id" : "26.1-snapshot-2",
    "javaVersion" : {
-      "component" : "java-runtime-delta",
-      "majorVersion" : 21
+      "component" : "java-runtime-epsilon",
+      "majorVersion" : 25
    },
    "libraries" : [
+      {
+         "downloads" : {
+            "artifact" : {
+               "path" : "at/yawk/lz4/lz4-java/1.10.1/lz4-java-1.10.1.jar",
+               "sha1" : "f541d7f910fe3d76f38f799c507c48cc81b12ecb",
+               "size" : 910232,
+               "url" : "https://libraries.minecraft.net/at/yawk/lz4/lz4-java/1.10.1/lz4-java-1.10.1.jar"
+            }
+         },
+         "name" : "at.yawk.lz4:lz4-java:1.10.1"
+      },
       {
          "downloads" : {
             "artifact" : {
@@ -332,24 +392,24 @@
       {
          "downloads" : {
             "artifact" : {
-               "path" : "com/mojang/jtracy/1.0.36/jtracy-1.0.36.jar",
-               "sha1" : "20a63d06b621bfeb3cb21ef51b7fa40c0fc22021",
+               "path" : "com/mojang/jtracy/1.0.37/jtracy-1.0.37.jar",
+               "sha1" : "a3fb649b2e2b2288d2978f0b0bc3d83f62809d1e",
                "size" : 12876,
-               "url" : "https://libraries.minecraft.net/com/mojang/jtracy/1.0.36/jtracy-1.0.36.jar"
+               "url" : "https://libraries.minecraft.net/com/mojang/jtracy/1.0.37/jtracy-1.0.37.jar"
             }
          },
-         "name" : "com.mojang:jtracy:1.0.36"
+         "name" : "com.mojang:jtracy:1.0.37"
       },
       {
          "downloads" : {
             "artifact" : {
-               "path" : "com/mojang/jtracy/1.0.36/jtracy-1.0.36-natives-linux.jar",
-               "sha1" : "8f2967c139b024bf80024a3eab63e906c3ee2e5b",
-               "size" : 193941,
-               "url" : "https://libraries.minecraft.net/com/mojang/jtracy/1.0.36/jtracy-1.0.36-natives-linux.jar"
+               "path" : "com/mojang/jtracy/1.0.37/jtracy-1.0.37-natives-linux.jar",
+               "sha1" : "e1b4395227af41195da9e2ead13c48ee0b7d31cd",
+               "size" : 193951,
+               "url" : "https://libraries.minecraft.net/com/mojang/jtracy/1.0.37/jtracy-1.0.37-natives-linux.jar"
             }
          },
-         "name" : "com.mojang:jtracy:1.0.36:natives-linux",
+         "name" : "com.mojang:jtracy:1.0.37:natives-linux",
          "rules" : [
             {
                "action" : "allow",
@@ -362,13 +422,13 @@
       {
          "downloads" : {
             "artifact" : {
-               "path" : "com/mojang/jtracy/1.0.36/jtracy-1.0.36-natives-macos.jar",
-               "sha1" : "fc14ac6acc30865d390e87ac57fc758e4393ef60",
-               "size" : 181363,
-               "url" : "https://libraries.minecraft.net/com/mojang/jtracy/1.0.36/jtracy-1.0.36-natives-macos.jar"
+               "path" : "com/mojang/jtracy/1.0.37/jtracy-1.0.37-natives-macos.jar",
+               "sha1" : "a99fcb63b72fb623534d0ceb71bda4bed9b55b4c",
+               "size" : 179562,
+               "url" : "https://libraries.minecraft.net/com/mojang/jtracy/1.0.37/jtracy-1.0.37-natives-macos.jar"
             }
          },
-         "name" : "com.mojang:jtracy:1.0.36:natives-macos",
+         "name" : "com.mojang:jtracy:1.0.37:natives-macos",
          "rules" : [
             {
                "action" : "allow",
@@ -381,13 +441,13 @@
       {
          "downloads" : {
             "artifact" : {
-               "path" : "com/mojang/jtracy/1.0.36/jtracy-1.0.36-natives-macos-arm64.jar",
-               "sha1" : "4be9270dc14eb021954445e8895dff223875ace6",
-               "size" : 195554,
-               "url" : "https://libraries.minecraft.net/com/mojang/jtracy/1.0.36/jtracy-1.0.36-natives-macos-arm64.jar"
+               "path" : "com/mojang/jtracy/1.0.37/jtracy-1.0.37-natives-macos-arm64.jar",
+               "sha1" : "c8e971da5150aa33283c5bf4097154c0da554fb9",
+               "size" : 193249,
+               "url" : "https://libraries.minecraft.net/com/mojang/jtracy/1.0.37/jtracy-1.0.37-natives-macos-arm64.jar"
             }
          },
-         "name" : "com.mojang:jtracy:1.0.36:natives-macos-arm64",
+         "name" : "com.mojang:jtracy:1.0.37:natives-macos-arm64",
          "rules" : [
             {
                "action" : "allow",
@@ -400,13 +460,13 @@
       {
          "downloads" : {
             "artifact" : {
-               "path" : "com/mojang/jtracy/1.0.36/jtracy-1.0.36-natives-windows.jar",
-               "sha1" : "b42bc771ab0d38a920258dd771eaf4f3c08011fa",
-               "size" : 47599,
-               "url" : "https://libraries.minecraft.net/com/mojang/jtracy/1.0.36/jtracy-1.0.36-natives-windows.jar"
+               "path" : "com/mojang/jtracy/1.0.37/jtracy-1.0.37-natives-windows.jar",
+               "sha1" : "6ff6d710fd4ffd470f2799653fab57e27fed0c9d",
+               "size" : 46763,
+               "url" : "https://libraries.minecraft.net/com/mojang/jtracy/1.0.37/jtracy-1.0.37-natives-windows.jar"
             }
          },
-         "name" : "com.mojang:jtracy:1.0.36:natives-windows",
+         "name" : "com.mojang:jtracy:1.0.37:natives-windows",
          "rules" : [
             {
                "action" : "allow",
@@ -1803,17 +1863,6 @@
       {
          "downloads" : {
             "artifact" : {
-               "path" : "org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar",
-               "sha1" : "4b986a99445e49ea5fbf5d149c4b63f6ed6c6780",
-               "size" : 682804,
-               "url" : "https://libraries.minecraft.net/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar"
-            }
-         },
-         "name" : "org.lz4:lz4-java:1.8.0"
-      },
-      {
-         "downloads" : {
-            "artifact" : {
                "path" : "org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar",
                "sha1" : "d9e58ac9c7779ba3bf8142aff6c830617a7fe60f",
                "size" : 69908,
@@ -1837,7 +1886,7 @@
    },
    "mainClass" : "net.minecraft.client.main.Main",
    "minimumLauncherVersion" : 21,
-   "releaseTime" : "2025-11-04T13:51:04+00:00",
-   "time" : "2025-11-04T13:51:04+00:00",
+   "releaseTime" : "2026-01-07T12:38:03+00:00",
+   "time" : "2026-01-07T12:38:03+00:00",
    "type" : "snapshot"
 }
