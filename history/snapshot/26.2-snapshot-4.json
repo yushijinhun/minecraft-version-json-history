@@ -1,5 +1,5 @@
 {
-   "__url" : "https://piston-meta.mojang.com/v1/packages/a473e99702c0796190f2f6218d7c1afd16d027c5/26.2-snapshot-4.json",
+   "__url" : "https://piston-meta.mojang.com/v1/packages/213c031ba3c9d57732426238c0366b8a8c12f51d/26.2-snapshot-4.json",
    "arguments" : {
       "default-user-jvm" : [
          {
@@ -216,10 +216,10 @@
    },
    "assetIndex" : {
       "id" : "31",
-      "sha1" : "2bb5732bac925173e58ed517020c27ec5847ba38",
+      "sha1" : "67f43620164f0e485eea83657047479a0a27181f",
       "size" : 575291,
-      "totalSize" : 474330528,
-      "url" : "https://piston-meta.mojang.com/v1/packages/2bb5732bac925173e58ed517020c27ec5847ba38/31.json"
+      "totalSize" : 474332479,
+      "url" : "https://piston-meta.mojang.com/v1/packages/67f43620164f0e485eea83657047479a0a27181f/31.json"
    },
    "assets" : "31",
    "complianceLevel" : 1,
