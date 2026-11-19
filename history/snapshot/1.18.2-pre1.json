@@ -1,5 +1,5 @@
 {
-   "__url" : "https://piston-meta.mojang.com/v1/packages/59bd690c22c69ace39595d3b14bf85a01bb54f35/1.18.2-pre1.json",
+   "__url" : "https://piston-meta.mojang.com/v1/packages/fe5733fcb4fa9bc6f3fb23da565c0fc7c0579e06/1.18.2-pre1.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -101,7 +101,11 @@
                   }
                }
             ],
-            "value" : "-Xss1M"
+            "value" : [
+               "-Xss1M",
+               "-XX:+UnlockDiagnosticVMOptions",
+               "-XX:-UseBASE64Intrinsics"
+            ]
          },
          "-Djava.library.path=${natives_directory}",
          "-Dminecraft.launcher.brand=${launcher_name}",

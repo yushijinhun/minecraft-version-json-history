@@ -1,5 +1,5 @@
 {
-   "__url" : "https://piston-meta.mojang.com/v1/packages/70ff4a8a1c4319709c4bdb9def48efcf63034815/26.4-snapshot-7.json",
+   "__url" : "https://piston-meta.mojang.com/v1/packages/1eca2e018c486d4274a3db8add19fe3bb9f03ee6/26.4-snapshot-7.json",
    "arguments" : {
       "default-user-jvm" : [
          {
@@ -200,7 +200,11 @@
                   }
                }
             ],
-            "value" : "-Xss1M"
+            "value" : [
+               "-Xss1M",
+               "-XX:+UnlockDiagnosticVMOptions",
+               "-XX:-UseBASE64Intrinsics"
+            ]
          },
          "-XX:StackShadowPages=32",
          "--enable-native-access=ALL-UNNAMED",

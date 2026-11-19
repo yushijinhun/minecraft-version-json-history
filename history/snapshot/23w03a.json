@@ -1,5 +1,5 @@
 {
-   "__url" : "https://piston-meta.mojang.com/v1/packages/e6a3d6ffdc316a5de61a6564d5f6527a25b96eba/23w03a.json",
+   "__url" : "https://piston-meta.mojang.com/v1/packages/5e7ad206aa0f729276dd2775e54d6c0f6574ec59/23w03a.json",
    "arguments" : {
       "game" : [
          "--username",
@@ -101,7 +101,11 @@
                   }
                }
             ],
-            "value" : "-Xss1M"
+            "value" : [
+               "-Xss1M",
+               "-XX:+UnlockDiagnosticVMOptions",
+               "-XX:-UseBASE64Intrinsics"
+            ]
          },
          "-Djava.library.path=${natives_directory}",
          "-Dminecraft.launcher.brand=${launcher_name}",
@@ -112,10 +116,10 @@
    },
    "assetIndex" : {
       "id" : "2",
-      "sha1" : "84584e1634fdd518768383ee9cb61ea1b82e24ef",
+      "sha1" : "d1dcb8ce1fd1518122cd4113260d7fdc05f80926",
       "size" : 407768,
-      "totalSize" : 596530070,
-      "url" : "https://piston-meta.mojang.com/v1/packages/84584e1634fdd518768383ee9cb61ea1b82e24ef/2.json"
+      "totalSize" : 596920415,
+      "url" : "https://piston-meta.mojang.com/v1/packages/d1dcb8ce1fd1518122cd4113260d7fdc05f80926/2.json"
    },
    "assets" : "2",
    "complianceLevel" : 1,
